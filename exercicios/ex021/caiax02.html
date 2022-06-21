@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 4px black;
+        }
+
+        header > h1 {
+            box-shadow: inset 2px 1px 14px rgba(0, 0, 0, 0.37) ;
+            border-radius: 5px;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px black;
+            border-radius: 5px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px;
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+            color:blue;
+        }
+
+        main  {
+            background-color: lightgray;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 4px black;
+            
+        }
+
+        article {
+            background-color: rgb(185, 179, 179);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        article > p {
+            text-align: justify;
+        }
+
+        article > aside {
+            background-color: rgb(150, 146, 146);
+        }
+
+        footer {
+            background-color: black;
+            color: White;
+            font-weight: bolder;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: 3px 3px 5px black;
+        }
+
+        footer > p {
+            margin: 0px;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> Esportes Política Tecnologia</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h1>Notícia sobre o Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora enim recusandae minima! Beatae perferendis eligendi illo ea aspernatur aliquid natus dolorum et veniam tempore. Recusandae necessitatibus magnam deleniti aut. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quo facere reiciendis totam assumenda! Ab tempora fugit dicta error sunt magnam similique debitis repudiandae quas enim. Repellat praesentium atque porro!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ratione odit adipisci obcaecati aperiam quod deleniti, provident magnam praesentium natus iusto inventore, modi quaerat labore. Totam, eveniet deserunt. Ipsam, qui? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis numquam ipsa neque, cupiditate nesciunt iure magni nisi doloribus et fugit ipsam excepturi veniam esse fuga explicabo! Possimus harum ab veniam!</p>
+                <aside>
+                    <p>Artigo escrito por Max William</p>
+                </aside>
+
+            </article>
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Cursoemvideo</p>
+    </footer>
+</body>
+</html>

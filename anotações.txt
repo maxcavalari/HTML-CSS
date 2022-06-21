@@ -1,0 +1,22 @@
+plugins
+
+webdeveloper: separa css,html e javascript de um site
+colorzilla: captura cores de um site com um contagota
+fonts ninja: captura o nome e parametros das fontes usadas de qualquer site
+
+Sites para sugestões de paletas de cores
+
+https://color.adobe.com/pt/create/color-wheel
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+https://coolors.co/
+
+Sites para captura de fontes em imagens
+
+https://www.whatfontis.com/ esse é o melhor
+https://www.fontsquirrel.com/
+
+
+Programas
+
+ediçao de imagem free: Gimp
+alterar formatos de video free: handbrake

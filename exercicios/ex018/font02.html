@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'love story' ;
+            src: url('fontes/love story.ttf') format('truetype');
+            /*
+            se for colocar + de uma fonte é só tirar o ; e adicionar, url e format.
+            tipos de format
+            - opentype (otf)
+            - truetype 9(tf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1 {
+            font-family: 'love story', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore officia deleniti vero. Quia sapiente commodi minus illum libero quo maiores facilis, fugit aut placeat, architecto vitae asperiores, maxime eaque voluptatum?</p>
+</body>
+</html>
