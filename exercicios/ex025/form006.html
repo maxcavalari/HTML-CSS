@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="icon">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
+            <!-- value para color é pra definir cor pré definida, se não setar value a cor padrão é preto-->
+        </p>
+        <p>
+            <label for="inivel">Nivel de satisfação: </label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="1">
+            <!--Min e Max são parametros para definir o valor da barra, se não definir por padrão a barra ficara com valor 100-->
+            <!--o value é pra definir em que nivel a barra começa, se não setar a barra sempre estara na metade-->
+        </p>
+        <p>
+            <label for="ifoto">Foto: </label>
+            <input type="file" name="foto" id="ifoto">
+            <!--quando existir arquivos para serem enviados em um formulario o metodo do form deverá sempre ser post-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
